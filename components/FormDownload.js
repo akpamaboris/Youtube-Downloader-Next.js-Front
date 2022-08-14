@@ -4,7 +4,7 @@ function FormDownload() {
   const [inputValue, setInputValue] = useState("");
 
   function sendDataToServer() {
-    window.location.href = `http://localhost:4000/download?URL=${inputValue}`;
+    window.location.href = `https://youtube-downloader-back-akpama.herokuapp.com/download?URL=${inputValue}`;
     setInputValue("");
   }
 
